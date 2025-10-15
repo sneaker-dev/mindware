@@ -38,7 +38,7 @@ pip install mindware
 To install MindWare using the source code, please run the following commands:
 
 ```bash
-git clone https://github.com/thomas-young-2013/mindware.git && cd mindware
+git clone https://github.com/sneaker-dev/mindware.git && cd mindware
 cat requirements/main.txt | xargs -n 1 -L 1 pip install
 python setup.py install
 ```
@@ -69,7 +69,7 @@ please refer to [Pyrfr Installation Guide](./install_pyrfr.md) to install `pyrfr
 
 ## 5 Trouble Shooting
 
-If you encounter problems not listed below, please [File an issue](https://github.com/thomas-young-2013/mindware/issues) 
+If you encounter problems not listed below, please [File an issue](https://github.com/sneaker-dev/mindware/issues) 
 on GitHub or email us via *liyang.cs@pku.edu.cn*.
 
 If you cannot install openbox correctly, please refer to [OpenBox Installation Guide](https://open-box.readthedocs.io/en/latest/installation/installation_guide.html).

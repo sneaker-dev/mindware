@@ -2,12 +2,12 @@
 <img src="docs/imgs/logo.png" width="40%">
 </p>
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/thomas-young-2013/mindware/blob/master/LICENSE)
-[![Build Status](https://api.travis-ci.org/thomas-young-2013/mindware.svg?branch=master)](https://www.travis-ci.org/github/thomas-young-2013/mindware)
-[![Issues](https://img.shields.io/github/issues-raw/thomas-young-2013/mindware.svg)](https://github.com/thomas-young-2013/mindware/issues?q=is%3Aissue+is%3Aopen)
-[![Bugs](https://img.shields.io/github/issues/thomas-young-2013/mindware/bug.svg)](https://github.com/thomas-young-2013/mindware/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Pull Requests](https://img.shields.io/github/issues-pr-raw/thomas-young-2013/mindware.svg)](https://github.com/thomas-young-2013/mindware/pulls?q=is%3Apr+is%3Aopen)
-[![Version](https://img.shields.io/github/release/thomas-young-2013/mindware.svg)](https://github.com/thomas-young-2013/mindware/releases) [![Join the chat at https://gitter.im/volcano-ml](https://badges.gitter.im/volcano-ml.svg)](https://gitter.im/volcano-ml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/sneaker-dev/mindware/blob/main/LICENSE)
+[![Build Status](https://api.travis-ci.org/sneaker-dev/mindware.svg?branch=main)](https://www.travis-ci.org/github/sneaker-dev/mindware)
+[![Issues](https://img.shields.io/github/issues-raw/sneaker-dev/mindware.svg)](https://github.com/sneaker-dev/mindware/issues?q=is%3Aissue+is%3Aopen)
+[![Bugs](https://img.shields.io/github/issues/sneaker-dev/mindware/bug.svg)](https://github.com/sneaker-dev/mindware/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Pull Requests](https://img.shields.io/github/issues-pr-raw/sneaker-dev/mindware.svg)](https://github.com/sneaker-dev/mindware/pulls?q=is%3Apr+is%3Aopen)
+[![Version](https://img.shields.io/github/release/sneaker-dev/mindware.svg)](https://github.com/sneaker-dev/mindware/releases) [![Join the chat at https://gitter.im/volcano-ml](https://badges.gitter.im/volcano-ml.svg)](https://gitter.im/volcano-ml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Documentation Status](https://readthedocs.org/projects/mindware/badge/?version=latest)](https://mindware.readthedocs.io/en/latest/?badge=latest)
 
 [MindWare Doc](https://mindware.readthedocs.io) | [MindWare中文文档](https://mindware.readthedocs.io/zh_CN/latest/)
@@ -51,7 +51,7 @@ pip install mindware
 If you want to try the latest version, please manually install MindWare from source code by:
 
 ```sh
-git clone https://github.com/thomas-young-2013/mindware.git && cd mindware
+git clone https://github.com/sneaker-dev/mindware.git && cd mindware
 cat requirements/main.txt | xargs -n 1 -L 1 pip install
 python setup.py install --user
 ```
@@ -81,25 +81,25 @@ clf.fit(train_data)
 pred = clf.predict(test_data)
 ```
 
-For more details and characteristics, please read the [documents](https://mindware.readthedocs.io/en/latest/?badge=latest) and [examples](https://github.com/thomas-young-2013/mindware/tree/master/examples/ci_examples/).
+For more details and characteristics, please read the [documents](https://mindware.readthedocs.io/en/latest/?badge=latest) and [examples](https://github.com/sneaker-dev/mindware/tree/main/examples/ci_examples/).
 
 
 ## **Releases and Contributing**
-MindWare has a frequent release cycle. Please let us know if you encounter a bug by [filling an issue](https://github.com/thomas-young-2013/mindware/issues/new/choose).
+MindWare has a frequent release cycle. Please let us know if you encounter a bug by [filling an issue](https://github.com/sneaker-dev/mindware/issues/new/choose).
 
 We appreciate all contributions. If you are planning to contribute any bug-fixes, please do so without further discussions.
 
 If you plan to contribute new features, new modules, etc. please first open an issue or reuse an existing issue, and discuss the feature with us.
 
-To learn more about making a contribution to MindWare, please refer to our [How-to contribution page](https://github.com/thomas-young-2013/mindware/blob/master/CONTRIBUTING.md). 
+To learn more about making a contribution to MindWare, please refer to our [How-to contribution page](https://github.com/sneaker-dev/mindware/blob/main/CONTRIBUTING.md). 
 
 We appreciate all contributions and thank all the contributors!
 
 
 
 ## **Feedback**
-* Check [the existing open and closed issues](https://github.com/thomas-young-2013/mindware/issues?q=is%3Aissue).
-* [File an issue](https://github.com/thomas-young-2013/mindware/issues/new/choose) on GitHub.
+* Check [the existing open and closed issues](https://github.com/sneaker-dev/mindware/issues?q=is%3Aissue).
+* [File an issue](https://github.com/sneaker-dev/mindware/issues/new/choose) on GitHub.
 * Discuss on the MindWare [Gitter](https://gitter.im/volcano-ml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge).
 
 

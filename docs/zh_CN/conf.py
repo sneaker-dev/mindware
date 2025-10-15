@@ -79,7 +79,16 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
-github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
+# Configure GitHub edit links for Read the Docs and local builds
+html_context = {
+    'display_github': True,
+    'github_user': 'sneaker-dev',
+    'github_repo': 'mindware',
+    'github_version': 'main',
+    'conf_py_path': '/docs/zh_CN/',
+}
+
+github_doc_root = 'https://github.com/sneaker-dev/mindware/tree/main/docs/zh_CN/'
 
 
 # app setup hook

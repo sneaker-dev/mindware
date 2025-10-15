@@ -38,7 +38,7 @@ pip install mindware
 使用以下命令通过Github源码安装MindWare：
 
 ```bash
-git clone https://github.com/thomas-young-2013/mindware.git && cd mindware
+git clone https://github.com/sneaker-dev/mindware.git && cd mindware
 cat requirements/main.txt | xargs -n 1 -L 1 pip install
 python setup.py install
 ```
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 ## 5 疑难解答
 
-如果以下未能解决您的安装问题, 请在Github上[提交issue](https://github.com/thomas-young-2013/mindware/issues) 
+如果以下未能解决您的安装问题, 请在Github上[提交issue](https://github.com/sneaker-dev/mindware/issues) 
 或发送邮件至*liyang.cs@pku.edu.cn*.
 
 如果您未能正确安装openbox，您也可以参考[OpenBox 安装指南](https://open-box.readthedocs.io/en/latest/installation/installation_guide.html).
