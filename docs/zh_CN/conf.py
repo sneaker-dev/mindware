@@ -21,8 +21,8 @@ sys.path.insert(0, os.path.abspath('./../../'))
 # -- Project information -----------------------------------------------------
 
 project = 'MindWare'
-copyright = '2021, Thomas (Yang) Li'
-author = 'Thomas (Yang) Li'
+copyright = '2021, Sneaker Dev'
+author = 'Sneaker Dev'
 
 # The full version, including alpha/beta/rc tags
 release = 'beta'

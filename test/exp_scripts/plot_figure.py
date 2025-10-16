@@ -94,5 +94,5 @@ if __name__ == "__main__":
 
         plt.title("Experiment 1 - %s" % dataset)
         plt.legend()
-        plt.savefig('/Users/thomasyoung/Desktop/figures/exp1_%s_%d.pdf' % (dataset, time_limit))
+        plt.savefig('/Users/sneaker_dev/Desktop/figures/exp1_%s_%d.pdf' % (dataset, time_limit))
         plt.show()
